@@ -1,11 +1,8 @@
-import './assets/main.css'
+import { createApp } from 'vue';
+import store from './store/store';
+import GitHubRepositories from './components/GitHubRepositories.vue';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-
-const app = createApp(App)
-
-app.use(router)
-
-app.mount('#app')
+const app = createApp(GitHubRepositories);
+app.config.globalProperties.$store = store;
+app.use(store);
+app.mount('#app');
