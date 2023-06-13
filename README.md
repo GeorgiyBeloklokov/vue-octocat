@@ -1,3 +1,5 @@
+![Screenshot_4](https://github.com/GeorgiyBeloklokov/vue-octocat/assets/77876368/dee89a71-b849-4ae0-ba8b-1b947694a910)
+
 # vue-octocat
 
 ## This is a test task for the position of a vue developer. 
