@@ -1,4 +1,23 @@
 ![Screenshot_4](https://github.com/GeorgiyBeloklokov/vue-octocat/assets/77876368/dee89a71-b849-4ae0-ba8b-1b947694a910)
+# Task description: 
+
+Разработать компоненты (vue+vuex)  для работы с репозиториями Github-graphQL API (v4). 
+
+Реализовать: 
+Отображение списка  репозиториев для логина octocat в виде дропбокса с возможностью фильтрации по имени.
+ (имя репозитория с логином)
+
+При выборе из списка репозиториев отображаются карточки с issues (название, статус, описание)
+По клику на issue отображается список комментариев (время создания, текст)
+Визуальное представление свободное.
+
+Дополнительная информация: 
+
+https://developer.github.com/v4/guides/forming-calls/#example-query
+
+https://developer.github.com/v4/explorer/
+
+----
 
 # vue-octocat
 
